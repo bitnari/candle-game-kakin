@@ -1,1 +1,3 @@
 # candle-game
+
+ver. Kakin

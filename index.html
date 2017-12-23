@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <title>촛불게임</title>
 
-    <link rel="stylesheet" href="/_css/main.css"></link>
-    <script src="/_js/main.js"></script>
+    <link rel="stylesheet" href="css/main.css"></link>
 </head>
 <body>
 <canvas id="main"></canvas>
 <div id="nameholder" class="name" align="center">
     <h1 class="title">촛불 피하기</h1>
 
-    <input id="name" type="text" autocomplete="off" placeholder="이름"></input>
-    <button onclick="submitName()" class="button" maxlength="15">시작!</button><br>
     <p id="info" style="color: red"></p>
 
     <ul align="left">
@@ -22,13 +19,7 @@
         <li>★☆☆☆☆ PPT로 만드세요</li>
         <li><b>제작자의 말</b>: 여러분이 이렇게 긍정적으로 반응해주시다니 영광입니다 ㅎㅎ<br>시간 없어서 10시간 때려박아서 만들었는데 반응이 좋네요</li>-->
     </ul>
-
-    <table class="rank" id="ranktable">
-        <tr>
-            <td>이름</td>
-            <td>점수</td>
-        </tr>
-    </table>
+    <script src="js/main.js"></script>
 </div>
 </body>
 </html>
